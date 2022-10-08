@@ -13,6 +13,7 @@ STYLEUPPERCASE = "I don't wanna change"
 _super_secret = "My Password"
 luckyNumber4 = "Looks it has a number!"
 lucky_number_3 = "I too got a number"
+scnd = "second"
 
 print(styleCamelCase)
 print(StylePascalCase)
