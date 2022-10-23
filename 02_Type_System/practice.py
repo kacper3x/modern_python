@@ -52,3 +52,9 @@ Is Extra Cheese required: {extra_cheese}
 Bill Amount: ${price}
 """
 )
+
+"""
+
+"""
+b: float = 3.11
+a: str = "this is string"
