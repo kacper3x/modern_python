@@ -22,7 +22,7 @@ def greeter(name: str) -> str:
 
 
 def main() -> None:
-    friends: list[str] = ["Cece", "Roko", "Chiko", "Niko", "Ziko"]
+    friends: list[str] = ["Cece", "Roko", "Chiko", "Niko", "Ziko", "Enea"]
     # Greet Everyone
     for friend in friends:
         # main acts as the `caller function` for greeter.
