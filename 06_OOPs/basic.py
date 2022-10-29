@@ -60,7 +60,7 @@ class Person:
 
     def greet(self) -> None:
         """Method that prints a greeting message"""
-        print(f"{self.first_name} says Hello 👋")
+        print(f"{self.first_name} says Hello")
 
 
 # -------------------------------------------------------------------------
