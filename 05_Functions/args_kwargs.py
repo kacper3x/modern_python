@@ -65,6 +65,7 @@ invoice(
     "white",
     brand="Nike",
     category="Air Jordans",
+    age="mid age",
     price=899.99,
     in_stock=False,
 )
