@@ -18,7 +18,16 @@ def greeter(name: str) -> None:
 
 
 def main() -> None:
-    friends: list[str] = ["Cece", "Roko", "Chiko", "Niko", "Ziko"]
+    friends: list[str] = [
+        "Cece",
+        "Roko",
+        "Chiko",
+        "Niko",
+        "Ziko",
+        "Piko",
+        "Nano",
+        "Mikro",
+    ]
     # Greet Everyone
     for friend in friends:
         greeter(friend)
