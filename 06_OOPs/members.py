@@ -11,6 +11,7 @@ class Box:
     # Class Variable/Member
     box_type = "Packaging Carton"
     color = "Brown"
+    state = "Play"
 
     def __init__(self, side_a: int, side_b: int) -> None:
         # Instance Variables/Members
@@ -25,6 +26,7 @@ b1 = Box(3, 4)
 print(b1)
 print(b1.box_type)
 print(b1.color)
+print(b1.state)
 
 print(Box.box_type)
 print(Box.color)
@@ -33,3 +35,4 @@ b2 = Box(7, 8)
 print(b2)
 print(b2.box_type)
 print(b2.color)
+print(b2.state)
