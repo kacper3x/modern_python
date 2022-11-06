@@ -22,9 +22,14 @@ villain_2 = Character(name="Redskull", life=800, attack_power=300)
 
 hero_1 = Character(name="Ironman", attack_power=250, life=1000)
 hero_2 = Character(name="Blackwidow", attack_power=180, life=800)
+hero_3 = Character(name="Yuki", attack_power=295, life=1500)
+hero_4 = Character(name="Keiko", attack_power=300, life=1000)
+
 
 print(villain_1)
 print(villain_2)
 
 print(hero_1)
 print(hero_2)
+print(hero_3)
+print(hero_4)
