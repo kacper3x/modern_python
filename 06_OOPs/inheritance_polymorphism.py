@@ -38,6 +38,11 @@ print(a1)
 
 a1.talk()
 
+a2 = Animal("Yuki", 12, 4)
+print(a2)
+a2.talk()
+
+
 # -------------------------------------------------------------------------
 
 
@@ -59,12 +64,17 @@ class Dog(Animal):
     def sniff(self, item: str) -> None:
         print(f"{self.name} is sniffing out {item}")
 
+    def bark(self) -> None:
+        """Makes the animal bark"""
+        print(f"{self.name} can bark loud!")
+
 
 d1 = Dog("Whisky", age=5, num_legs=4, breed="Doberman")
 
 print(d1)
 d1.talk()
 d1.sniff("ball")
+d1.bark()
 
 # -------------------------------------------------------------------------
 
