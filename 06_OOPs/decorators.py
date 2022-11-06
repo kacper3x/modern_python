@@ -17,7 +17,6 @@ We can mark the class as `final` so that no other class can subclass it.
 """
 
 from __future__ import annotations
-
 from datetime import datetime
 from enum import Enum, auto
 from typing import final
