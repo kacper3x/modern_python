@@ -143,6 +143,10 @@ s1.salary = 17
 s1.salary = 22
 print(s1.salary)
 
+s3 = Staff("Eni", "Jot", 2345, Role.MANAGER)
+print(s3)
+s3.salary = 222
+print(s3)
 
 # class HR(Staff):
 #     pass
