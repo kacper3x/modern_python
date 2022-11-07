@@ -46,7 +46,7 @@ class Person:
     @property
     def fullname(self) -> str:
         """Returns the full name."""
-        return f"{self.fname} {self.lname}"
+        return f"{self.fname} {self.lname} -> this is the method fullname with a property decoration."
 
 
 # -------------------------------------------------------------------------
@@ -126,21 +126,22 @@ class Staff(Person):
 p1 = Person("Louis", "Zappa")
 print(p1.fullname)
 
-s1 = Staff.new(p1, 1234, Role.SUPERVISOR)
-print(s1)
-print(s1.joined_on)
 
-s2 = Staff("Chiko", "Jones", 3245, Role.MANAGER)
-print(s2)
+# s1 = Staff.new(p1, 1234, Role.SUPERVISOR)
+# print(s1)
+# print(s1.joined_on)
 
-Staff.describe()
+# s2 = Staff("Chiko", "Jones", 3245, Role.MANAGER)
+# print(s2)
 
-print(s1.salary)
-print(s2.salary)
+# Staff.describe()
 
-s1.salary = 17
-s1.salary = 22
-print(s1.salary)
+# print(s1.salary)
+# print(s2.salary)
+
+# s1.salary = 17
+# s1.salary = 22
+# print(s1.salary)
 
 
 # class HR(Staff):
