@@ -101,10 +101,11 @@ c1.talk()
 
 
 class Dino(Animal):
-    def __init__(self, name: str, age: int, num_legs: int, breed: str) -> None:
+    def __init__(self, name: str, age: int, num_legs: int, breed: str, food_type: str) -> None:
         super().__init__(name, age, num_legs)
         self.breed = breed
         self.type = "Dino"
+        self.food_type = food_type
 
     def __str__(self) -> str:
         return f"{self.type}: {self.name}, Breed: {self.breed}"
@@ -115,12 +116,16 @@ class Dino(Animal):
     def hunt(self) -> None:
         print(f"{self.name} is out for hunting...")
 
+    def eat(self) -> None:
+        print(f"{self.name} is eating for {self.food_type}")
 
-dino1 = Dino("Adam", age=8, num_legs=2, breed="T-Rex")
+
+dino1 = Dino("Adam", age=8, num_legs=2, breed="T-Rex", food_type="Something tastyyyyyy")
 
 print(dino1)
 dino1.talk()
 dino1.hunt()
+dino1.eat()
 
 # -------------------------------------------------------------------------
 
