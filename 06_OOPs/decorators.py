@@ -127,21 +127,21 @@ p1 = Person("Louis", "Zappa")
 print(p1.fullname)
 
 
-# s1 = Staff.new(p1, 1234, Role.SUPERVISOR)
-# print(s1)
-# print(s1.joined_on)
+s1 = Staff.new(p1, 1234, Role.SUPERVISOR)
+print(s1)
+print(s1.joined_on)
 
-# s2 = Staff("Chiko", "Jones", 3245, Role.MANAGER)
-# print(s2)
+s2 = Staff("Chiko", "Jones", 3245, Role.MANAGER)
+print(s2)
 
-# Staff.describe()
+Staff.describe()
 
-# print(s1.salary)
-# print(s2.salary)
+print(s1.salary)
+print(s2.salary)
 
-# s1.salary = 17
-# s1.salary = 22
-# print(s1.salary)
+s1.salary = 17
+s1.salary = 22
+print(s1.salary)
 
 
 # class HR(Staff):
