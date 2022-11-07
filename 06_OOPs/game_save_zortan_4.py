@@ -44,7 +44,7 @@ class SuperHero(Character):
     def __str__(self) -> str:
         return (
             f"Superhero => Name: {self.name}, Attack Power: {self.attack_power},"
-            f" Life: {self.life}"
+            f"Life: {self.life}"
         )
 
 
@@ -107,9 +107,10 @@ def get_all_superheros() -> list[SuperHero]:
     blackwidow = SuperHero(name="Blackwidow", attack_power=180, life=800)
     spiderman = SuperHero(name="Spiderman", attack_power=190, life=700)
     hulk = SuperHero(name="Hulk", attack_power=300, life=1100)
+    tupac = SuperHero("Tupac", 303, 1500)
 
     # All Superheros
-    superheros = [ironman, blackwidow, spiderman, hulk]
+    superheros = [ironman, blackwidow, spiderman, hulk, tupac]
 
     return superheros
 
