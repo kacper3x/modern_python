@@ -106,7 +106,7 @@ def get_all_superheros() -> list[SuperHero]:
     ironman = SuperHero(name="Ironman", attack_power=250, life=1000)
     blackwidow = SuperHero(name="Blackwidow", attack_power=180, life=800)
     spiderman = SuperHero(name="Spiderman", attack_power=190, life=700)
-    hulk = SuperHero(name="Hulk", attack_power=300, life=1100)
+    hulk = SuperHero(name="Hulk", attack_power=100, life=1200)
     tupac = SuperHero("Tupac", 303, 1500)
 
     # All Superheros
