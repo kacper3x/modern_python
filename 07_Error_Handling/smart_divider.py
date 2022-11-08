@@ -7,3 +7,4 @@ def smart_divider(x: int, y: int) -> None:
 
 
 smart_divider(4, 0)
+smart_divider(4, 2)
