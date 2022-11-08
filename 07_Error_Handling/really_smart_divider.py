@@ -12,3 +12,4 @@ def rsmart_divider(x: int, y: int) -> None:
 
 rsmart_divider(3, 0)
 rsmart_divider(3, 4)
+rsmart_divider(4, 2.2)
