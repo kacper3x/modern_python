@@ -15,5 +15,7 @@ def divider(x: int, y: int) -> None:
         print("Finally: Always executes irrespective of success or exception.")
 
 
-divider(3, 0)
-divider(3, 4)
+# divider(3, 0)
+# divider(3, 4)
+# divider(3, m)
+divider(4, 3)
