@@ -1,6 +1,5 @@
 import json
 from datetime import datetime
-
 from customer import Customer
 from invoice_item import InvoiceItem
 from item import Item
