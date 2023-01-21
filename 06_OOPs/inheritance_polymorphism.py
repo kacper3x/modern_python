@@ -105,7 +105,7 @@ class Dino(Animal):
         super().__init__(name, age, num_legs)
         self.breed = breed
         self.type = "Dino"
-        self.food_type = food
+        self.food_type = food_type
 
     def __str__(self) -> str:
         return f"{self.type}: {self.name}, Breed: {self.breed}"
